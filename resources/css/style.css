@@ -7,8 +7,13 @@ body {
   text-align: center;
 }
 
-.header {
+.flex-container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header {
   height: 69px;
   border-bottom: 1px solid seashell;
   width: 100%;
@@ -16,6 +21,7 @@ body {
   background-color: black;
   margin-bottom: 69px;
   z-index: 10;
+  margin: 0 auto;
 }
 
 .header img {
@@ -48,6 +54,7 @@ a {
   align-items: center;
   justify-content: center;
   position: relative;
+  margin: 0 auto;
 }
 
 .words {
@@ -59,6 +66,7 @@ a {
 
 .middle {
   width: 1000px;
+  margin: 0 auto;
 }
 
 .middle img {
@@ -88,7 +96,7 @@ a {
   background-size: cover;
   height: 500px;
   width: 1200px;
-  margin-bottom: 5px;
+  margin: 0 auto 5px auto;
 }
 
 .locations {
@@ -112,7 +120,7 @@ a {
 
 .footer {
   height: 200px;
-  margin-top: 5px;
+  margin: 0 auto;
 }
 
 #cr {
